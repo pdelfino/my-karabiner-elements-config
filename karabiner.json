@@ -17,14 +17,14 @@
                 },
                 "rules": [
                     {
-                        "description": "right_option + B -> Brave",
+                        "description": "left_option + B -> Brave",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_option"
+                                            "left_option"
                                         ]
                                     }
                                 },
@@ -36,7 +36,71 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "left_option + E -> Emacs",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a emacs"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "left_option + G -> Google Chrome",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Google chrome'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "left_option + s -> Slack",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Slack.app/'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
+                    
                 ]
             },
             "devices": [
