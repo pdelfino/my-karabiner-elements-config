@@ -1,0 +1,4 @@
+* My configuration on Karabiner Elements to tweak my macOS
+
+** Attempted tweaks:
+  - [ ] Launch Brave browser after pressing Command Key (butterfly) and letter "b"
