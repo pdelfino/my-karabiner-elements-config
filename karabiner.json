@@ -17,14 +17,14 @@
                 },
                 "rules": [
                     {
-                        "description": "left_option + B -> Brave",
+                        "description": "left_command + B -> Brave",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -38,14 +38,14 @@
                         ]
                     },
                     {
-                        "description": "left_option + E -> Emacs",
+                        "description": "left_command + E -> Emacs",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "e",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -59,14 +59,14 @@
                         ]
                     },
                     {
-                        "description": "left_option + G -> Google Chrome",
+                        "description": "left_command + G -> Google Chrome",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "g",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -78,15 +78,16 @@
                                 "type": "basic"
                             }
                         ]
-                    },{
-                        "description": "left_option + M -> Messages",
+                    },
+                    {
+                        "description": "left_command + M -> Messages",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -100,35 +101,14 @@
                         ]
                     },
                     {
-                        "description": "left_option + M -> Messages",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Messages'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "left_option + s -> Slack",
+                        "description": "left_command + s -> Slack",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ]
                                     }
                                 },
