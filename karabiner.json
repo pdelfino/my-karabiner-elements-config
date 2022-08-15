@@ -1586,7 +1586,7 @@
                         ]
                     },
                     {
-                        "description": "F4 to Paste",
+                        "description": "C-y to Paste",
                         "manipulators": [
                             {
                                 "from": {
