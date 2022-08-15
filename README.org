@@ -9,5 +9,6 @@
   - [X] Restore macOS System Preferences on keyboard modifiers and
     transport all previous tweaks (on Control, Caps Lock, Option,
     Command, and FN to Karabiner)
-  - [ ] Add emacs keybindings to have Emacs everywhere
-  - [ ] Fix copy, paste, and cut. Make it be windows-like or Emacs like
+  - [X] Add emacs keybindings to have Emacs everywhere
+  - [X] Fix copy, paste, and cut. Make it be Emacs like
+  - [ ] Make search be Emacs like (Control-S instead of Command f)
