@@ -57,6 +57,26 @@
                                 "type": "basic"
                             }
                         ]
+                    },{
+                        "description": "left_command + F -> Finder",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open ."
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     },
                     {
                         "description": "left_command + g -> Google Chrome",
