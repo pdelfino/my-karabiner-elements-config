@@ -283,6 +283,16 @@
             "simple_modifications": [
                 {
                     "from": {
+                        "apple_vendor_top_case_key_code": "keyboard_fn"
+                    },
+                    "to": [
+                        {
+                            "key_code": "caps_lock"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "key_code": "caps_lock"
                     },
                     "to": [
@@ -303,11 +313,11 @@
                 },
                 {
                     "from": {
-                        "apple_vendor_top_case_key_code": "keyboard_fn"
+                        "key_code": "left_control"
                     },
                     "to": [
                         {
-                            "key_code": "caps_lock"
+                            "apple_vendor_top_case_key_code": "keyboard_fn"
                         }
                     ]
                 },
@@ -318,16 +328,6 @@
                     "to": [
                         {
                             "key_code": "left_command"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "left_control"
-                    },
-                    "to": [
-                        {
-                            "apple_vendor_top_case_key_code": "keyboard_fn"
                         }
                     ]
                 }
