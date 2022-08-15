@@ -17,7 +17,7 @@
                 },
                 "rules": [
                     {
-                        "description": "left_command + B -> Brave",
+                        "description": "left_command + b -> Brave",
                         "manipulators": [
                             {
                                 "from": {
@@ -38,7 +38,7 @@
                         ]
                     },
                     {
-                        "description": "left_command + E -> Emacs",
+                        "description": "left_command + e -> Emacs",
                         "manipulators": [
                             {
                                 "from": {
@@ -59,7 +59,7 @@
                         ]
                     },
                     {
-                        "description": "left_command + G -> Google Chrome",
+                        "description": "left_command + g -> Google Chrome",
                         "manipulators": [
                             {
                                 "from": {
@@ -80,7 +80,7 @@
                         ]
                     },
                     {
-                        "description": "left_command + M -> Messages",
+                        "description": "left_command + m -> Messages",
                         "manipulators": [
                             {
                                 "from": {
