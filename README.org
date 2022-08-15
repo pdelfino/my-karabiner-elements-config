@@ -10,3 +10,4 @@
     transport all previous tweaks (on Control, Caps Lock, Option,
     Command, and FN to Karabiner)
   - [ ] Add emacs keybindings to have Emacs everywhere
+  - [ ] Fix copy, paste, and cut. Make it be windows-like or Emacs like
