@@ -1,4 +1,12 @@
 * My configuration on Karabiner Elements to tweak my macOS
 
 ** Attempted tweaks:
-  - [ ] Launch Brave browser after pressing Command Key (butterfly) and letter "b"
+  - [X] Launch Brave browser after pressing Command Key (butterfly) and letter "b"
+  - [X] Launch Emacs with Command Key (butterfly) and "e"
+  - [X] Launch Chrome with Command Key (butterfly) and "g"
+  - [X] Launch Messages with Command Key (butterfly) and "m"
+  - [X] Launch Slack with Command Key (butterfly) and "s"
+  - [X] Restore macOS System Preferences on keyboard modifiers and
+    transport all previous tweaks (on Control, Caps Lock, Option,
+    Command, and FN to Karabiner)
+  - [ ] Add emacs keybindings to have Emacs everywhere
