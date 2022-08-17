@@ -38,6 +38,27 @@
                         ]
                     },
                     {
+                        "description": "left_command + k -> terminal",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a '/System/Applications/Utilities/Terminal.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "left_command + e -> Emacs",
                         "manipulators": [
                             {
@@ -57,27 +78,27 @@
                                 "type": "basic"
                             }
                         ]
-                    },{
-                        "description": "left_command + F -> Finder",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open ."
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
+                    },// {
+                    //     "description": "left_command + F -> Finder",
+                    //     "manipulators": [
+                    //         {
+                    //             "from": {
+                    //                 "key_code": "f",
+                    //                 "modifiers": {
+                    //                     "mandatory": [
+                    //                         "left_command"
+                    //                     ]
+                    //                 }
+                    //             },
+                    //             "to": [
+                    //                 {
+                    //                     "shell_command": "open ."
+                    //                 }
+                    //             ],
+                    //             "type": "basic"
+                    //         }
+                    //     ]
+                    // },
                     {
                         "description": "left_command + g -> Google Chrome",
                         "manipulators": [
