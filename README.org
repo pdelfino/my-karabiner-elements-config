@@ -1,14 +1,24 @@
 * My configuration on Karabiner Elements to tweak my macOS
 
 ** Attempted tweaks:
-  - [X] Launch Brave browser after pressing Command Key (butterfly) and letter "b"
-  - [X] Launch Emacs with Command Key (butterfly) and "e"
-  - [X] Launch Chrome with Command Key (butterfly) and "g"
-  - [X] Launch Messages with Command Key (butterfly) and "m"
-  - [X] Launch Slack with Command Key (butterfly) and "s"
+  - [X] Launch Brave browser after pressing Command Key and letter "b"
+  - [X] Launch Emacs with Command Key and "e"
+  - [X] Launch Chrome with Command Key and "g"
+  - [X] Launch Messages with Command Key and "m"
+  - [X] Launch Slack with Command Key and "s"
   - [X] Restore macOS System Preferences on keyboard modifiers and
     transport all previous tweaks (on Control, Caps Lock, Option,
     Command, and FN to Karabiner)
+  - [X] Make the macbook Air keyboard be more like my previous UX of
+    running Linux-kernel based OS on a windows keyboard
+    - [X] Make caps lock key on hardware behave like control
+    - [X] Make FN key on hardware behave like caps lock
+    - [X] Make control key on hardware behave like FN
+    - [X] Make option key on hardware behave like command
+    - [X] Make command key on hardware behave like option
   - [X] Add emacs keybindings to have Emacs everywhere
   - [X] Fix copy, paste, and cut. Make it be Emacs like
   - [ ] Make search be Emacs like (Control-S instead of Command f)
+  - [ ] Make select all be Emacs like
+  - [ ] Make undo be Emacs like
+
