@@ -6,6 +6,7 @@
   - [X] Launch Chrome with Command Key and "g"
   - [X] Launch Messages with Command Key and "m"
   - [X] Launch Slack with Command Key and "s"
+  - [X] Launch Terminal with Command Key and "k"
   - [X] Restore macOS System Preferences on keyboard modifiers and
     transport all previous tweaks (on Control, Caps Lock, Option,
     Command, and FN to Karabiner)
