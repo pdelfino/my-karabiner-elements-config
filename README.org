@@ -24,7 +24,7 @@
     There is also control-g stuff on search (going backwards) and the
     importance of control g as escape in Emacs. We want C-s and no
     problem with C-g
-  - [ ] Make select all be Emacs like: =C-x h=. =Control+a= (windows
+  - [X] Make select all be Emacs like: =C-x h=. =Control+a= (windows
     tweak) will cause problems with =Control+a= from Emacs (beginning
     of line).
   - [ ] Make undo be Emacs like.
