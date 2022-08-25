@@ -19,7 +19,15 @@
     - [X] Make command key on hardware behave like option
   - [X] Add emacs keybindings to have Emacs everywhere
   - [X] Fix copy, paste, and cut. Make it be Emacs like
-  - [ ] Make search be Emacs like (Control-S instead of Command f)
-  - [ ] Make select all be Emacs like
-  - [ ] Make undo be Emacs like
+  - [ ] Make search be Emacs like (Control-S instead of Command f). It
+    is not just tweaking the config for windows to be like Emacs.
+    There is also control-g stuff on search (going backwards) and the
+    importance of control g as escape in Emacs. We want C-s and no
+    problem with C-g
+  - [ ] Make select all be Emacs like: =C-x h=. =Control+a= (windows
+    tweak) will cause problems with =Control+a= from Emacs (beginning
+    of line).
+  - [ ] Make undo be Emacs like.
+  - [ ] Make Close Tab be like Emacs =C-x k=. Be careful with =C-w=
+    since it is being used for Cut!
 
