@@ -122,6 +122,27 @@
                         ]
                     },
                     {
+                        "description": "left_command + 0 -> VLC",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "0",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/VLC.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "left_command + s -> Slack",
                         "manipulators": [
                             {
