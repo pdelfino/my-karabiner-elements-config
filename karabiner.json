@@ -18,6 +18,26 @@
         },
         "rules": [
           {
+            "description": "Disable backlight key",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "YOUR_KEY_CODE_HERE",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": ""
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
             "description": "left_command + b -> Brave",
             "manipulators": [
               {
