@@ -80,11 +80,11 @@
             ]
           },
           {
-            "description": "left_command + e -> Emacs",
+            "description": "left_command + j -> Emacs",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "e",
+                  "key_code": "j",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -101,11 +101,11 @@
             ]
           },
           {
-            "description": "left_command + g -> Google Chrome",
+            "description": "left_command + h -> Google Chrome",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "g",
+                  "key_code": "h",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -143,11 +143,11 @@
             ]
           },
           {
-            "description": "left_command + 0 -> VLC",
+            "description": "left_command + ç -> VLC",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "0",
+                  "key_code": "semicolon",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -164,13 +164,15 @@
             ]
           },
           {
-            "description": "left_command + right_shift + s -> Signal",
+            "description": "left_command + l -> Signal",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "s",
+                  "key_code": "l",
                   "modifiers": {
-                    "mandatory": ["left_command", "right_shift"]
+                    "mandatory": [
+                      "left_command"
+                      ]
                   }
                 },
                 "to": [
@@ -2092,6 +2094,16 @@
           "to": [
             {
               "key_code": "left_option"
+            }
+          ]
+        },
+        {
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "key_code": "left_command"
             }
           ]
         },
