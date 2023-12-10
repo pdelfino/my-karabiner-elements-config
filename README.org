@@ -32,3 +32,6 @@
     problem with C-g
   - [ ] Make undo be Emacs like.
 
+** Observations:
+
+I was using too much my left to press the left-command (which is binded to my left-option key). This started to hurt. Hence, I am now using the escape as left-command. This is specially relevant for app switching via shortcuts.
