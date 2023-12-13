@@ -38,11 +38,11 @@
           },
 
           {
-            "description": "left_command + b -> Brave",
+            "description": "left_command + k -> Brave",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "b",
+                  "key_code": "k",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -59,11 +59,11 @@
             ]
           },
           {
-            "description": "left_command + k -> terminal",
+            "description": "left_command + ç -> terminal",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "k",
+                  "key_code": "semicolon",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -101,11 +101,11 @@
             ]
           },
           {
-            "description": "left_command + h -> Google Chrome",
+            "description": "left_command + l -> Google Chrome",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "h",
+                  "key_code": "l",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -122,11 +122,11 @@
             ]
           },
           {
-            "description": "left_command + m -> Messages",
+            "description": "left_command + i -> Messages",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "m",
+                  "key_code": "i",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -143,11 +143,11 @@
             ]
           },
           {
-            "description": "left_command + ç -> VLC",
+            "description": "left_command + 0 -> VLC",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "semicolon",
+                  "key_code": "0",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -164,11 +164,11 @@
             ]
           },
           {
-            "description": "left_command + l -> Signal",
+            "description": "left_command + o -> Signal",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "l",
+                  "key_code": "o",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
@@ -185,11 +185,11 @@
             ]
           },
           {
-            "description": "left_command + s -> Slack",
+            "description": "left_command + u -> Slack",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "s",
+                  "key_code": "u",
                   "modifiers": {
                     "mandatory": [
                       "left_command"
