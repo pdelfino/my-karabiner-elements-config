@@ -1,15 +1,22 @@
 * My configuration on Karabiner Elements to tweak my macOS
 
+** Principles
+  - keep on the home row
+  - leverage touch typing technique
+  - be emacs friendly
+  - I might be switching to =evil-mode= in Emacs. Maybe, make macos
+    have vim keybindings?
+
 ** Attempted tweaks:
-  - [X] Launch Brave browser after pressing Command Key and letter "b"
-  - [X] Launch Emacs with Command Key and "e"
-  - [X] Launch Chrome with Command Key and "g"
-  - [X] Launch Messages with Command Key and "m"
-  - [X] Launch Slack with Command Key and "s"
-  - [X] Launch Terminal with Command Key and "k"
+  - [X] Launch Emacs with Command Key and "j"
+  - [X] Launch Brave browser after pressing Command Key and letter "k"
+  - [X] Launch Chrome with Command Key and "l"
+  - [X] Launch Terminal with Command Key and "ç"
+  - [X] Launch Slack with Command Key and "u"
+  - [X] Launch Messages with Command Key and "i"
   - [X] Restore macOS System Preferences on keyboard modifiers and
     transport all previous tweaks (on Control, Caps Lock, Option,
-    Command, and FN to Karabiner)
+    Command, and FN to Karabiner). Use karabiner
   - [X] Make the macbook Air keyboard be more like my previous UX of
     running Linux-kernel based OS on a windows keyboard
     - [X] Make caps lock key on hardware behave like control
@@ -34,4 +41,7 @@
 
 ** Observations:
 
-I was using too much my left to press the left-command (which is binded to my left-option key). This started to hurt. Hence, I am now using the escape as left-command. This is specially relevant for app switching via shortcuts.
+I was using too much my left to press the left-command (which is
+binded to my left-option key). This started to hurt. Hence, I am now
+using the escape as left-command. This is specially relevant for app
+switching via shortcuts.
