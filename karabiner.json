@@ -37,14 +37,14 @@
             ]
           },
           {
-            "description": "right_command + f -> Emacs",
+            "description": "right_option + f -> Emacs",
             "manipulators": [
               {
                 "from": {
                   "key_code": "f",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -58,14 +58,14 @@
             ]
           },
           {
-            "description": "right_command + d -> Brave",
+            "description": "right_option + d -> Brave",
             "manipulators": [
               {
                 "from": {
                   "key_code": "d",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -79,14 +79,14 @@
             ]
           },
           {
-            "description": "right_command + s -> Google Chrome",
+            "description": "right_option + s -> Google Chrome",
             "manipulators": [
               {
                 "from": {
                   "key_code": "s",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -100,14 +100,14 @@
             ]
           },
           {
-            "description": "right_command + a -> terminal",
+            "description": "right_option + a -> terminal",
             "manipulators": [
               {
                 "from": {
                   "key_code": "a",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -121,14 +121,14 @@
             ]
           },
           {
-            "description": "right_command + v -> Slack",
+            "description": "right_option + v -> Slack",
             "manipulators": [
               {
                 "from": {
                   "key_code": "v",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -142,14 +142,14 @@
             ]
           },
           {
-            "description": "right_command + c -> Signal",
+            "description": "right_option + c -> Signal",
             "manipulators": [
               {
                 "from": {
                   "key_code": "c",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -163,14 +163,14 @@
             ]
           },
           {
-            "description": "right_command + x -> Messages",
+            "description": "right_option + x -> Messages",
             "manipulators": [
               {
                 "from": {
                   "key_code": "x",
                   "modifiers": {
                     "mandatory": [
-                      "right_command"
+                      "right_option"
                     ]
                   }
                 },
@@ -2097,11 +2097,11 @@
         },
         {
           "from": {
-            "key_code": "right_option"
+            "key_code": "right_command"
           },
           "to": [
             {
-              "key_code": "right_command"
+              "key_code": "right_option"
             }
           ]
         }
