@@ -1,47 +1,106 @@
-* My configuration on Karabiner Elements to tweak my macOS
+* My Karabiner Elements Configuration
 
-** Principles
-  - keep on the home row
-  - leverage touch typing technique
-  - be emacs friendly
-  - I might be switching to =evil-mode= in Emacs. Maybe, make macos
-    have vim keybindings?
+A custom [[https://karabiner-elements.pqrs.org/][Karabiner Elements]] configuration for macOS that brings Emacs-style keybindings system-wide and provides quick application launchers.
 
-** Attempted tweaks:
-  - [X] Launch Emacs with Command Key and "j"
-  - [X] Launch Brave browser after pressing Command Key and letter "k"
-  - [X] Launch Chrome with Command Key and "l"
-  - [X] Launch Terminal with Command Key and "ç"
-  - [X] Launch Slack with Command Key and "u"
-  - [X] Launch Messages with Command Key and "i"
-  - [X] Restore macOS System Preferences on keyboard modifiers and
-    transport all previous tweaks (on Control, Caps Lock, Option,
-    Command, and FN to Karabiner). Use karabiner
-  - [X] Make the macbook Air keyboard be more like my previous UX of
-    running Linux-kernel based OS on a windows keyboard
-    - [X] Make caps lock key on hardware behave like control
-    - [X] Make FN key on hardware behave like caps lock
-    - [X] Make control key on hardware behave like FN
-    - [X] Make option key on hardware behave like command
-    - [X] Make command key on hardware behave like option
-  - [X] Add emacs keybindings to have Emacs everywhere
-  - [X] Fix copy, paste, and cut. Make it be Emacs like as =M-w=,
-    =C-y=, and =C-w=.
-  - [X] Make Close Tab be like Emacs =C-x k=. Be careful with =C-w=
-    since it is being used for Cut!
-  - [X] Make select all be Emacs like: =C-x h=. =Control+a= (windows
-    tweak) will cause problems with =Control+a= from Emacs (beginning
-    of line).
-  - [ ] Make search be Emacs like (Control-S instead of Command f). It
-    is not just tweaking the config for windows to be like Emacs.
-    There is also control-g stuff on search (going backwards) and the
-    importance of control g as escape in Emacs. We want C-s and no
-    problem with C-g
-  - [ ] Make undo be Emacs like.
+** Profiles
 
-** Observations:
+This configuration includes *two profiles* optimized for different keyboards:
 
-I was using too much my left to press the left-command (which is
-binded to my left-option key). This started to hurt. Hence, I am now
-using the escape as left-command. This is specially relevant for app
-switching via shortcuts.
+| Profile          | Keyboard                  |
+|------------------+---------------------------|
+| =mac-default=    | Built-in MacBook keyboard |
+| =logi-ergonomic= | Logitech Ergo K860        |
+
+** Features
+
+*** Application Launchers
+
+Launch your favorite apps instantly using =Right Option= + key:
+
+| Shortcut | Application   |
+|----------+---------------|
+| =⌥ + f=  | Emacs         |
+| =⌥ + a=  | Terminal      |
+| =⌥ + d=  | Brave Browser |
+| =⌥ + s=  | Google Chrome |
+| =⌥ + v=  | Slack         |
+| =⌥ + c=  | Signal        |
+| =⌥ + x=  | Messages      |
+| =⌥ + t=  | VLC Player    |
+| =⌥ + g=  | Preview       |
+
+*** Emacs Keybindings
+
+Comprehensive Emacs keybindings that work across all macOS applications (except Emacs and Terminal, where native bindings are preserved).
+
+**** Navigation
+
+| Shortcut | Action                |
+|----------+-----------------------|
+| =C-f=    | Forward character     |
+| =C-b=    | Backward character    |
+| =C-n=    | Next line             |
+| =C-p=    | Previous line         |
+| =C-a=    | Beginning of line     |
+| =C-e=    | End of line           |
+| =M-f=    | Forward word          |
+| =M-b=    | Backward word         |
+| =C-v=    | Page down             |
+| =M-v=    | Page up               |
+| =M-<=    | Beginning of document |
+| =M->=    | End of document       |
+
+**** Editing
+
+| Shortcut | Action              |
+|----------+---------------------|
+| =C-d=    | Delete forward      |
+| =C-h=    | Delete backward     |
+| =C-k=    | Kill line           |
+| =M-d=    | Delete word forward |
+| =C-w=    | Cut                 |
+| =M-w=    | Copy                |
+| =C-y=    | Paste               |
+| =C-/=    | Undo                |
+
+**** Emacs C-x Commands
+
+| Shortcut  | Action           |
+|-----------+------------------|
+| =C-x C-s= | Save             |
+| =C-x C-f= | Open file        |
+| =C-x C-c= | Quit application |
+| =C-x k=   | Close tab        |
+| =C-x h=   | Select all       |
+| =C-x u=   | Undo             |
+
+**** Other Shortcuts
+
+| Shortcut | Action                     |
+|----------+----------------------------|
+| =C-g=    | Escape / Cancel            |
+| =C-s=    | Search (in supported apps) |
+| =C-t=    | New tab                    |
+| =C-l=    | Focus URL bar (browsers)   |
+| =C-z=    | Undo                       |
+
+** Design Principles
+
+- *Home row focused* — minimize finger travel
+- *Touch typing friendly* — leverage muscle memory
+- *Emacs everywhere* — consistent keybindings across macOS
+- *Keyboard agnostic* — works with both built-in and external keyboards
+
+** Installation
+
+1. Install [[https://karabiner-elements.pqrs.org/][Karabiner Elements]]
+2. Clone this repository
+3. Symlink or copy =karabiner.json= to =~/.config/karabiner/karabiner.json=
+
+#+begin_src bash
+ln -sf $(pwd)/karabiner.json ~/.config/karabiner/karabiner.json
+#+end_src
+
+** License
+
+MIT
