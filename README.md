@@ -1,0 +1,116 @@
+# My Karabiner Elements Configuration
+
+A custom [Karabiner Elements](https://karabiner-elements.pqrs.org/) configuration for macOS that brings Emacs-style keybindings system-wide and provides quick application launchers.
+
+## Profiles
+
+This configuration includes **two profiles** optimized for different keyboards:
+
+| Profile          | Keyboard                  |
+|------------------|---------------------------|
+| `mac-default`    | Built-in MacBook keyboard |
+| `logi-ergonomic` | Logitech Ergo K860        |
+
+---
+
+## Features
+
+### Application Launchers
+
+Launch your favorite apps instantly using `Right Option` + key:
+
+| Shortcut | Application   |
+|----------|---------------|
+| `⌥ + f`  | Emacs         |
+| `⌥ + a`  | Terminal      |
+| `⌥ + d`  | Brave Browser |
+| `⌥ + s`  | Google Chrome |
+| `⌥ + v`  | Slack         |
+| `⌥ + c`  | Signal        |
+| `⌥ + x`  | Messages      |
+| `⌥ + t`  | VLC Player    |
+| `⌥ + g`  | Preview       |
+
+---
+
+### Emacs Keybindings
+
+Comprehensive Emacs keybindings that work across all macOS applications (except Emacs and Terminal, where native bindings are preserved).
+
+#### Navigation
+
+| Shortcut | Action                |
+|----------|-----------------------|
+| `C-f`    | Forward character     |
+| `C-b`    | Backward character    |
+| `C-n`    | Next line             |
+| `C-p`    | Previous line         |
+| `C-a`    | Beginning of line     |
+| `C-e`    | End of line           |
+| `M-f`    | Forward word          |
+| `M-b`    | Backward word         |
+| `C-v`    | Page down             |
+| `M-v`    | Page up               |
+| `M-<`    | Beginning of document |
+| `M->`    | End of document       |
+
+#### Editing
+
+| Shortcut | Action              |
+|----------|---------------------|
+| `C-d`    | Delete forward      |
+| `C-h`    | Delete backward     |
+| `C-k`    | Kill line           |
+| `M-d`    | Delete word forward |
+| `C-w`    | Cut                 |
+| `M-w`    | Copy                |
+| `C-y`    | Paste               |
+| `C-/`    | Undo                |
+
+#### Emacs C-x Commands
+
+| Shortcut  | Action           |
+|-----------|------------------|
+| `C-x C-s` | Save             |
+| `C-x C-f` | Open file        |
+| `C-x C-c` | Quit application |
+| `C-x k`   | Close tab        |
+| `C-x h`   | Select all       |
+| `C-x u`   | Undo             |
+
+#### Other Shortcuts
+
+| Shortcut | Action                     |
+|----------|----------------------------|
+| `C-g`    | Escape / Cancel            |
+| `C-s`    | Search (in supported apps) |
+| `C-t`    | New tab                    |
+| `C-l`    | Focus URL bar (browsers)   |
+| `C-z`    | Undo                       |
+
+---
+
+## Design Principles
+
+- **Home row focused** — minimize finger travel
+- **Touch typing friendly** — leverage muscle memory
+- **Emacs everywhere** — consistent keybindings across macOS
+- **Keyboard agnostic** — works with both built-in and external keyboards
+
+---
+
+## Installation
+
+1. Install [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+2. Clone this repository
+3. Symlink or copy `karabiner.json` to `~/.config/karabiner/karabiner.json`
+
+```bash
+ln -sf $(pwd)/karabiner.json ~/.config/karabiner/karabiner.json
+```
+
+---
+
+## License
+
+MIT
