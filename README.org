@@ -22,8 +22,9 @@ Launch your favorite apps instantly using =Right Option= + key:
 | =⌥ + f=  | Emacs         |
 | =⌥ + a=  | Terminal      |
 | =⌥ + d=  | Brave Browser |
-| =⌥ + s=  | Google Chrome |
-| =⌥ + v=  | Slack         |
+| =⌥ + s=  | Google Chrome (automated test instance) |
+| =⌥ + w=  | Balance (localhost:3005)                |
+| =⌥ + v=  | Slack                                  |
 | =⌥ + c=  | Signal        |
 | =⌥ + x=  | Messages      |
 | =⌥ + t=  | VLC Player    |
