@@ -75,6 +75,14 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =C-x h=   | Select all       |
 | =C-x u=   | Undo             |
 
+**** Clipboard
+
+| Shortcut | Action                                          |
+|----------+-------------------------------------------------|
+| =M-y=    | Maccy clipboard history (outside Emacs only)    |
+
+=M-y= is remapped to =Ctrl+Option+Cmd+Y= outside Emacs to trigger [[https://maccy.app/][Maccy]] (clipboard manager). Inside Emacs, =M-y= passes through untouched and triggers =counsel-yank-pop= as usual. Both share the system clipboard.
+
 **** Other Shortcuts
 
 | Shortcut | Action                     |
