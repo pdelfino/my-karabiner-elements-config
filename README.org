@@ -110,6 +110,15 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 ln -sf $(pwd)/karabiner.json ~/.config/karabiner/karabiner.json
 #+end_src
 
+** Related
+
+- [[https://github.com/pdelfino/emacs-config][emacs-config]] - The Emacs setup these keybindings complement
+- [[https://github.com/pdelfino/homerow-config][homerow-config]] - Click things without a mouse
+- [[https://github.com/pdelfino/claude-config][claude-config]] - Claude Code configuration
+- [[https://github.com/pdelfino/iterm2-config][iterm2-config]] - iTerm2 terminal profile
+- [[https://github.com/pdelfino/zshrc][zshrc]] - Shell configuration with Emacs keybindings
+- [[https://github.com/pdelfino/macos-setup][macos-setup]] - The bootstrap that ties it all together
+
 ** License
 
 MIT
