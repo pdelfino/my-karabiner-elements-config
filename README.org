@@ -10,6 +10,7 @@ This configuration includes *two profiles* optimized for different keyboards:
 |------------------+---------------------------|
 | =mac-default=    | Built-in MacBook keyboard |
 | =logi-ergonomic= | Logitech Ergo K860        |
+| =glove80=        | MoErgo Glove80 split      |
 
 ** Features
 
@@ -82,6 +83,15 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =M-y=    | Maccy clipboard history (outside Emacs only)    |
 
 =M-y= is remapped to =Ctrl+Option+Cmd+Y= outside Emacs to trigger [[https://maccy.app/][Maccy]] (clipboard manager). Inside Emacs, =M-y= passes through untouched and triggers =counsel-yank-pop= as usual. Both share the system clipboard.
+
+**** Control Key Emulations
+
+| Shortcut | Action                     |
+|----------+----------------------------|
+| =C-i=    | Tab                        |
+| =C-m=    | Return / Enter             |
+| =C-[=    | Escape                     |
+| =C-]=    | Escape                     |
 
 **** Other Shortcuts
 
