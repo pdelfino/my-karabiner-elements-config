@@ -1,6 +1,6 @@
 # karabiner-config
 
-![Delivery of the Keys](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Entrega_de_las_llaves_a_San_Pedro_%28Perugino%29.jpg/700px-Entrega_de_las_llaves_a_San_Pedro_%28Perugino%29.jpg)
+![Delivery of the Keys](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Entrega_de_las_llaves_a_San_Pedro_%28Perugino%29.jpg/960px-Entrega_de_las_llaves_a_San_Pedro_%28Perugino%29.jpg)
 
 *"Delivery of the Keys" (1481-1482) by Pietro Perugino -- [Wikipedia](https://en.wikipedia.org/wiki/Delivery_of_the_Keys_(Perugino))*
 
